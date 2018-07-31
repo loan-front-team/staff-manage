@@ -23,7 +23,21 @@ function getFlatMenuData(menus) {
 export const getRouterData = () => {
 	const routerConfig = {
 		'/': { component: {Dashboard} },
-		'/dashboard': { component: {Dashboard} },
+		'/dashboard': { component: {Dashboard} }, // 首页
+		'/personalWorkStation': { }, // 个人工作台
+		'/orgManaget': { }, // 组织管理
+		'/staffManage': { }, // 员工管理
+
+		'/staffManage/query': { }, // 员工管理
+		'/staffManage/unusal': { }, // 异动管理
+		'/staffManage/resign': { }, // 离司管理
+		'/staffManage/batch': { }, // 批量处理
+
+		'/systemManage/corInfo': { }, // 企业信息
+		'/systemManage/function': { }, // 功能设置
+		'/systemManage/authority': { }, // 权限设置
+
+		'/listReport': { }, // 清单报表
 		'/user': { component: () => <h1>business-tree</h1> },
 	};
 

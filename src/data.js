@@ -8,7 +8,7 @@
 
 const data = {
 	common: {
-		systemName: 'Idoll Pro',
+		systemName: '小蜜蜂人员管理系统',
 	},
 	gfooter: {
 		links: [{

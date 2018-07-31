@@ -100,7 +100,7 @@ export default class SiderMenu extends PureComponent {
 				return this.checkPermissionItem(item.authority, ItemDom);
 			})
 			.filter(item => !!item);
-			// console.log('NavMenuItems', NavMenuItems);
+			console.log('NavMenuItems', NavMenuItems);
 		return NavMenuItems;
 	}
 	// 如果是一级菜单则返回Menu.Item，如果是多级菜单，则通过递归返回SubMenu及Menu.Item
